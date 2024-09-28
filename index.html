@@ -7,18 +7,150 @@
     <title>Biker Zone</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
 </head>
 
 <body>
-    <header>
-        <nav></nav>
-        <section></section>
+    <header class="">
+        <nav>
+            <div class="navbar bg- bg-neutral-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>News</a></li>
+
+                            <li><a>Shop</a></li>
+                            <li><a>contact</a></li>
+
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">Bike Dekho</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>News</a></li>
+
+                        <li><a>Shop</a></li>
+                        <li><a>Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn btn-error">Login</a>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="hero bg-red-200 min-h-screen">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                    <img src="./images/slider/bike3.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <h1 class="text-5xl font-bold">RIDE ON R15V4 <BR>
+                            WITH SMILE</h1>
+                        <p class="py-6">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                            quasi.,<br> In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+
+                        <button class="btn btn-primary">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-        <section></section>
+        <section class="justify-items-center py-3 gap-3">
+            <div class="text-center">
+                <h1 class="text-2xl font-bold">Featured Bikes In This Year</h1>
+                <p class="text-red-500 text-base">Best collections</p>
+            </div>
+            <div class="flex justify-center align-middle py-3">
+                <img src="./images/slider/bike1.png" alt="">
+                <img src="./images/others/extrabike.png" alt="">
+                <img src="./images/slider/bike4.png" alt="">
+            </div>
+        </section>
+        <section>
+            <div class="text-2xl text-center my-7">
+                <h1 class="">Latest News</h1>
+            </div>
+            <div class="flex justify-items-center">
+                <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest1.png"
+                        alt="bikes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit architecto sed perspiciatis vitae voluptatem nobis eos maxime ad neque sapiente, error, aliquam iusto explicabo hic, facilis nisi ipsum dolores a!</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn btn-error">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest2.png"
+                        alt="bikes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">MOTORCYCLE AND SCOOTERS</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit architecto sed perspiciatis vitae voluptatem nobis eos maxime ad neque sapiente, error, aliquam iusto explicabo hic, facilis nisi ipsum dolores a!</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn btn-outline btn-secondary">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card card-compact bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="./images/others/latest3.png"
+                        alt="bikes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">2021 HONDA CBR500R</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit architecto sed perspiciatis vitae voluptatem nobis eos maxime ad neque sapiente, error, aliquam iusto explicabo hic, facilis nisi ipsum dolores a!</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn btn-outline btn-error">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+
+                
+                
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer><footer class="footer bg-neutral text-neutral-content p-10">
+        
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+         
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <nav> <a class="link link-hover"><img src="./images/others/android.png" alt=""></a></nav>
+        <nav> <a class="link link-hover"><img src="./images/others/ios.png" alt=""></a></nav>
+      </footer>
 
 </body>
 
